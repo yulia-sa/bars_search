@@ -61,7 +61,7 @@ def get_nearest_bars(bars_with_distance):
 def create_map(user_coordinates, nearest_bars):
     folium_map = folium.Map(
         location=[user_coordinates[0], user_coordinates[1]],
-        zoom_start=12,
+        zoom_start=16,
         tiles='Stamen Terrain'
     )
 
